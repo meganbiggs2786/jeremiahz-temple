@@ -103,8 +103,8 @@
     <input class="auth-input" id="auth-username" placeholder="Username (signup only)" style="display:none"/>
     <input class="auth-input" id="auth-email" type="email" placeholder="Email address"/>
     <input class="auth-input" id="auth-password" type="password" placeholder="Password"/>
-    <div class="abtn" id="auth-submit" style="background:linear-gradient(135deg,var(--cyan),var(--purple));color:#000;" onclick="submitAuth()">LOGIN</div>
-    <div class="abtn" id="auth-toggle-btn" style="background:transparent;border:2px solid var(--cyan);color:var(--cyan);margin-bottom:0;" onclick="toggleAuthMode()">CREATE FREE ACCOUNT</div>
+    <button style="width:100%;padding:15px;border-radius:8px;background:linear-gradient(135deg,var(--cyan),var(--purple));color:#000;font-family:'Orbitron',sans-serif;font-size:11px;font-weight:700;letter-spacing:2px;border:none;margin-bottom:10px;min-height:50px;" id="auth-submit" onclick="submitAuth()">LOGIN</button>
+    <button style="width:100%;padding:15px;border-radius:8px;background:transparent;border:2px solid var(--cyan);color:var(--cyan);font-family:'Orbitron',sans-serif;font-size:11px;font-weight:700;letter-spacing:2px;min-height:50px;" id="auth-toggle-btn" onclick="toggleAuthMode()">CREATE FREE ACCOUNT</button>
   </div>
 </div>
 <div class="modal-bg" id="save-modal" style="display:none;">
